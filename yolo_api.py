@@ -23,9 +23,9 @@ bucket = storage.bucket()
 if not os.path.exists('uploads'):
     os.makedirs('uploads')
 
-# model = YOLO('models/yolov8_model.pt')
+model = YOLO('models/yolov8_model.pt')
 
-model = RTDETR('models/best.pt')
+# model = RTDETR('models/best.pt')
 
 disease_labels = ['Healthy', 'Rotten-Tomato', 'bacterial-Spot', 'blossomendrotrotation', 'cracking', 'spliting', 'sunscaled']
 
