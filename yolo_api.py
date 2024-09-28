@@ -34,7 +34,7 @@ class_colors = {
     'Healthy': (199, 252, 0),  
     'Rotten-Tomato': (0, 183, 235),  
     'blossomendrotrotation': (134, 34, 255),  
-    'cracking': (254, 0, 86),  
+    'cracking': (254, 0, 86), 
     'spliting': (0, 255, 206),  
     'sunscaled': (255, 128, 0)  
 }
