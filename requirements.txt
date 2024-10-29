@@ -1,0 +1,8 @@
+Flask
+torch
+torchvision
+ultralytics
+dill
+firebase-admin
+firebase
+google-cloud-storage

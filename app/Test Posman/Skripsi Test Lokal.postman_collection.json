@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "8a2f9630-dad8-4462-b8eb-28b1fb68ac0a",
+		"name": "Skripsi Test Lokal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "24097316",
+		"_collection_link": "https://argotrack.postman.co/workspace/Skripsi~ffa58019-9027-4a84-8f66-5ac7bd7d75ef/collection/24097316-8a2f9630-dad8-4462-b8eb-28b1fb68ac0a?action=share&source=collection_link&creator=24097316"
+	},
+	"item": [
+		{
+			"name": "Local",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/USER/OneDrive/Pictures/tomat/a021b3_cab963ad0efc4b31b23497bca227aee8~mv2.webp"
+						}
+					]
+				},
+				"url": "http://localhost:8080/detect"
+			},
+			"response": []
+		},
+		{
+			"name": "articles post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/USER/OneDrive/Pictures/tomat/anthracnose-tomatoes-tomato-disease-anthracnose-shutterstock-com_15749.jpg"
+						},
+						{
+							"key": "data",
+							"value": "{\n    \"title\": \"Blossom-end Rot \",\n    \"content\": [\n        {\n            \"paragraph\": \"Tidak banyak hal yang lebih membuat frustrasi daripada menanam tomat yang tampak sehat, tanaman yang menghasilkan banyak bunga dan buah, dan kemudian, setelah tomat Anda berukuran sebesar bola golf, buahnya membusuk dari pangkalnya. Kondisi yang sangat umum ini, disebut Blossom End Rot (BER), disebabkan oleh salah satu dari dua cara berikut: kekurangan kalsium tanah atau gangguan penyerapan kalsium tanah oleh tanaman.\"\n        },\n        {\n            \"paragraph\": \"Meskipun Blossom End Rot (BER) merupakan salah satu penyakit tomat yang paling merusak, sebenarnya dapat dicegah dengan sedikit kerja keras di awal pertumbuhan tanaman dari Anda! Uji tanah dan ubah pH dengan kapur jika perlu, tambahkan sedikit kalsium melalui pupuk campuran tomat atau suplemen non-kapur seperti gipsum, dan sirami secara teratur! Lakukan tiga hal ini dan Anda akan segera mendapatkan panen tomat awal musim panas yang luar biasa.\"\n        },\n{\n            \"paragraph\": \"Tidak banyak hal yang lebih membuat frustrasi daripada menanam tomat yang tampak sehat, tanaman yang menghasilkan banyak bunga dan buah, dan kemudian, setelah tomat Anda berukuran sebesar bola golf, buahnya membusuk dari pangkalnya. Kondisi yang sangat umum ini, disebut Blossom End Rot (BER), disebabkan oleh salah satu dari dua cara berikut: kekurangan kalsium tanah atau gangguan penyerapan kalsium tanah oleh tanaman.\"\n        },\n{\n            \"paragraph\": \"Tidak banyak hal yang lebih membuat frustrasi daripada menanam tomat yang tampak sehat, tanaman yang menghasilkan banyak bunga dan buah, dan kemudian, setelah tomat Anda berukuran sebesar bola golf, buahnya membusuk dari pangkalnya. Kondisi yang sangat umum ini, disebut Blossom End Rot (BER), disebabkan oleh salah satu dari dua cara berikut: kekurangan kalsium tanah atau gangguan penyerapan kalsium tanah oleh tanaman.\"\n        },\n{\n            \"paragraph\": \"Tidak banyak hal yang lebih membuat frustrasi daripada menanam tomat yang tampak sehat, tanaman yang menghasilkan banyak bunga dan buah, dan kemudian, setelah tomat Anda berukuran sebesar bola golf, buahnya membusuk dari pangkalnya. Kondisi yang sangat umum ini, disebut Blossom End Rot (BER), disebabkan oleh salah satu dari dua cara berikut: kekurangan kalsium tanah atau gangguan penyerapan kalsium tanah oleh tanaman.\"\n        }\n    ],\n    \"author\": \"Tomato\",\n    \"publishDate\": \"2024-09-28\",\n    \"tags\": [\"Tomato\", \"Disease\", \"End Rot\"] \n}\n",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:3000/articles"
+			},
+			"response": []
+		},
+		{
+			"name": "get articles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/articles"
+			},
+			"response": []
+		}
+	]
+}
